@@ -15,7 +15,7 @@ export function LoginForm({ className }) {
                     <input type='email'
                         name='email'
                         defaultValue={state.fields?.email || ''}
-                        placeholder="john.doe@example.com"
+                        placeholder="jose@example.com"
                         className='peer block w-full'
                         required
                     />

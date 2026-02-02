@@ -15,7 +15,7 @@ function RegisterForm({ className }) {
                     <input type='text'
                         name='name'
                         defaultValue={state.fields?.name || ''}
-                        placeholder="John Doe"
+                        placeholder="Jose Pérez"
                         className='block w-full'
                         required
                     />
@@ -24,7 +24,7 @@ function RegisterForm({ className }) {
                     <input type='email'
                         name='email'
                         defaultValue={state.fields?.email || ''}
-                        placeholder="john.doe@example.com"
+                        placeholder="jose@example.com"
                         className='peer block w-full'
                     />
                     <p className="invisible peer-invalid:visible text-red-300">
