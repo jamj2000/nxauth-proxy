@@ -5,7 +5,7 @@ async function PaginaProducto({ params }) {
         <h1 className="text-3xl font-bold">
             Producto #{id}
         </h1>
-    );
+    )
 }
 
 export default PaginaProducto;
