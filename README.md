@@ -113,3 +113,10 @@ npm  install  bcryptjs   # para cifrar contraseñas
 ```
 
 
+### Hacer uso de la semilla
+
+```sh
+npm  install  @paralleldrive/cuid2   # instalar paquete para cuid
+npm  run  seed                       # realizar sembrado
+```
+
