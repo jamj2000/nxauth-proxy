@@ -53,6 +53,14 @@ export async function login(prevState, formData) {
         }
     }
 
+    // Si user tiene Accounts
+    if (user.accounts.length > 0) {
+        return {
+            error: 'El email ya está registrado con un proveedor OAuth',
+            fields: Object.fromEntries(formData.entries())
+        }
+    }
+
     // Comparamos password 
     const matchPassword = await bcrypt.compare(password, user.password)
 
